@@ -66,7 +66,7 @@ string PrintKoeff(int[] array)
 }
 
 
-int[,] tr = CreateTriangle(10);
+int[,] tr = CreateTriangle(13);
 PrintTriangle(tr);
 int row = 6; 
 int[] array = GetKoeff(tr, row);
